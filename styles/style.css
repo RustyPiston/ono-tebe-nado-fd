@@ -1,1 +1,194 @@
-/* место для вашего кода */
+.header {
+    display: grid;
+    height: 293px;
+    max-width: 100%;
+    box-sizing: border-box;
+}
+
+.header_content {
+  display: grid;
+  grid-template-columns: 1fr min-content 1fr;
+  align-items: center;
+  justify-content: space-around;
+  box-sizing: border-box;
+}
+
+.header_navigation_links {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    padding: 0 0 0 50px;
+}
+
+.link_main {
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.header_links {
+    display: flex;
+    flex-direction: column;
+    margin-left: 184px;
+    list-style-type: none;
+}
+
+.header_logo_image {
+    width: 124px;
+    height: 95px;
+}
+
+.cover {
+    text-align: center;
+    position: relative;
+    height: 757px;
+}
+
+.cover_image {
+    height: 757px;
+    width: 1100px;
+    z-index: 1;
+}
+
+.cover_dark {
+    position: absolute;
+    height: 757px;
+    width: 1100px;
+    background-color: #000;
+    top: 0;
+    left: 0;
+    opacity: 0.6;
+    z-index: 2;
+}
+
+.text_span {
+    position: absolute;
+    top: 165px;
+    left: 50px;
+    color: #fff;
+    z-index: 3;
+    width: 1000px;
+}
+
+.text_span_cover {
+    display: block;
+    font-family: Raleway, serif;
+    font-weight: 700;
+    font-size: 100px;
+    font-style: bold;
+    line-height: 115%;
+    letter-spacing: 30px;
+}
+
+.span_left {
+    text-align: left;
+}
+
+.span_center {
+    text-align: center;
+}
+
+.span_right {
+    text-align: right;
+}
+
+.spacing {
+    text-align: right;
+    letter-spacing: 30px;
+}
+
+.no_spacing {
+    letter-spacing: 0;
+}
+
+.description {
+    position: absolute;
+    height: 51px;
+    width: 1000px;
+    left: 50px;
+    bottom: 50px;
+    color: #fff;
+    z-index: 3;
+    font-family: Raleway, serif;
+    font-weight: 400;
+    font-size: 22px;
+    font-style: bold;
+    line-height: 28px;
+    letter-spacing: 0;
+    text-transform: uppercase;
+    justify-content: center;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.description_text {
+    position: absolute;
+    word-spacing: 15px;
+    left: 0;
+    padding: 12px 0;
+}
+
+.button {
+    font-family: Raleway;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 22px;
+    leading-trim: NONE;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+    text-transform: uppercase;
+    border: 1px solid #fff;
+    white-space: nowrap;
+    width: 256px;
+    position: absolute;
+    right: 0;
+    padding: 12px 32px;
+}
+
+.button_click {
+    text-decoration: none;
+}
+
+.cards {
+    position: relative;
+    margin-top: 180px;
+    width: 1052px;
+    height: 732px;
+}
+
+.cards_header {
+    position: absolute;
+    top: 0;
+    left: 40px;
+    font-family: Raleway;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 40px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-transform: uppercase;
+
+}
+
+.lots_list {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    gap: 25px;
+    box-sizing: border-box;
+}
+
+.first_card {
+    width: 334px;
+    height: 596px;
+}
+
+.second_card {
+    width: 334px;
+    height: 596px;
+}
+
+.third_card {
+    width: 334px;
+    height: 596px;
+}
