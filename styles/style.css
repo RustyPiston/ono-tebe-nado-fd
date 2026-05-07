@@ -1,16 +1,17 @@
 .header {
-    display: grid;
     height: 293px;
     max-width: 100%;
     box-sizing: border-box;
 }
 
 .header_content {
-  display: grid;
-  grid-template-columns: 1fr min-content 1fr;
-  align-items: center;
-  justify-content: space-around;
-  box-sizing: border-box;
+    position: relative;
+}
+
+.header_navigation{
+    position: absolute;
+    left: 50px;
+    top: 133px; 
 }
 
 .header_navigation_links {
@@ -25,16 +26,27 @@
     list-style-type: none;
 }
 
-.header_links {
-    display: flex;
-    flex-direction: column;
-    margin-left: 184px;
-    list-style-type: none;
+.header_logo {
+    position: absolute;
+    left: 478px;
+    top: 92px;
 }
 
 .header_logo_image {
     width: 124px;
     height: 95px;
+}
+
+.header_links {
+    position: absolute;
+    top: 95px;
+    right: 50px;
+}
+
+.header_links_list {
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
 }
 
 .cover {
