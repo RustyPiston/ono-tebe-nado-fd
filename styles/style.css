@@ -1,5 +1,6 @@
 .header {
     height: 293px;
+    width: 1100px   ;
     max-width: 100%;
     box-sizing: border-box;
 }
@@ -11,7 +12,8 @@
 .header_navigation{
     position: absolute;
     left: 50px;
-    top: 133px; 
+    top: 133px;
+    right: 36.5px;
 }
 
 .header_navigation_links {
@@ -41,6 +43,7 @@
     position: absolute;
     top: 95px;
     right: 50px;
+    bottom: 100px;
 }
 
 .header_links_list {
