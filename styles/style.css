@@ -39,12 +39,13 @@
 }
 
 .link_lots {
-    gap: 5px;
+    gap: 10px;
+
 }
 
 .header_logo {
     position: absolute;
-    left: 482px;
+    left: 480px;
     top: 90px;
 }
 
