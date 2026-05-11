@@ -19,8 +19,13 @@
 .header_navigation_links {
     display: flex;
     flex-direction: row;
-    gap: 30px;
+    list-style-type: circle;
+    gap: 40px;
     padding: 0 0 0 50px;
+}
+
+.links_navigation {
+    text-decoration: none;
 }
 
 .link_main {
@@ -35,13 +40,13 @@
 }
 
 .header_logo_image {
-    width: 129px;
-    height: 105px;
+    width: 137px;
+    height: 112px;
 }
 
 .header_links {
     position: absolute;
-    top: 95px;
+    top: 100px;
     right: 109px;
     bottom: 96px;
 }
