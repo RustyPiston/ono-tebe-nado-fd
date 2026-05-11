@@ -47,12 +47,12 @@
 
 .link_lots {
     position: absolute;
-    left: 97px;
+    left: 101px;
 }
 
 .link_auction {
     position: absolute;
-    left: 280px;
+    left: 284px;
 }
 
 .header_logo {
@@ -104,7 +104,6 @@
     display: flex;
     flex-direction: column;
     list-style-type: none;
-    letter-spacing: 0.2px;
 }
 
 .header_links_list_content {
@@ -115,6 +114,7 @@
     width: 239.48px;
     height: 24px;
     margin-bottom: 0;
+    letter-spacing: 0.2px;
 }
 
 .link_mail {
@@ -122,11 +122,13 @@
     height: 24px;
     text-decoration: none;
     margin-bottom: 1px;
+    letter-spacing: 0.2px;
 }
 
 .link_adress {
     width: 236.49px;
     height: 49px;
+    letter-spacing: 0.2px;
 }
 
 .cover {
@@ -260,7 +262,7 @@
 
 .header_content_text {
     position: absolute;
-    top: 0;
+    top: 4px;
     left: 40px;
     font-family: Raleway;
     font-weight: 700;
@@ -322,10 +324,11 @@
     line-height: 120%;
     letter-spacing: 0%;
     text-transform: uppercase;
-    text-decoration: underline;
+    text-decoration: none;
     text-decoration-style: solid;
     text-decoration-thickness: 0%;
     color: #fff;
+    border-bottom: 1px solid #fff;
 }
 
 .first_card_content {
@@ -387,10 +390,11 @@
     line-height: 120%;
     letter-spacing: 0%;
     text-transform: uppercase;
-    text-decoration: underline;
+    text-decoration: none;
     text-decoration-style: solid;
     text-decoration-thickness: 0%;
     color: #fff;
+    border-bottom: 1px solid #fff;
 }
 
 .second_card_content {
@@ -452,10 +456,11 @@
     line-height: 120%;
     letter-spacing: 0%;
     text-transform: uppercase;
-    text-decoration: underline;
+    text-decoration: none;
     text-decoration-style: solid;
     text-decoration-thickness: 0%;
     color: #fff;
+    border-bottom: 1px solid #fff;
 }
 
 .third_card_content {
@@ -490,6 +495,8 @@
     font-size: 20px;
     line-height: 100%;
     letter-spacing: 0%;
+    text-decoration: none;
+    border-bottom: 1px solid #fff;
 }
 
 .about {
@@ -547,7 +554,7 @@
 .about_content_auction_title_text {
     position: absolute;
     left: 0;
-    top: 3px;
+    top: 7px;
     font-family: Raleway;
     font-weight: 700;
     font-style: Bold;
@@ -560,7 +567,7 @@
 .about_content_auction_main {
     position: absolute;
     right: 0;
-    bottom: 13px;
+    bottom: -13px;
 }
 
 .about_content_auction_main_list {
