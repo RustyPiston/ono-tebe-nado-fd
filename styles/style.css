@@ -12,15 +12,21 @@
 .header_navigation{
     position: absolute;
     left: 0;
-    top: 135px;
-    right: 36.5px;
+    top: 134px;
 }
 
 .header_navigation_links {
+    font-family: Raleway;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 18px;
+    line-height: 100%;
+    letter-spacing: 0%;
+
     display: flex;
     flex-direction: row;
     list-style-type: circle;
-    gap: 40px;
+    gap: 39px;
     padding: 0 0 0 50px;
 }
 
@@ -36,7 +42,7 @@
 .header_logo {
     position: absolute;
     left: 482px;
-    top: 96px;
+    top: 90px;
 }
 
 .header_logo_image {
@@ -52,6 +58,13 @@
 }
 
 .header_links_list {
+    font-family: Raleway;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 18px;
+    line-height: 24.3px;
+    letter-spacing: 0%;
+
     display: flex;
     flex-direction: column;
     list-style-type: none;
