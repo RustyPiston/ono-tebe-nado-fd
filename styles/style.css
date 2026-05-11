@@ -39,10 +39,18 @@
     list-style-type: none;
 }
 
+.link_lots {
+    gap: 2px;
+}
+
+.link_auction {
+    gap: 5px;
+}
+
 .header_logo {
     position: absolute;
-    left: 480px;
-    top: 90px;
+    left: 475px;
+    top: 85px;
 }
 
 .header_logo_image {
@@ -53,7 +61,7 @@
 .header_links {
     position: absolute;
     top: 96px;
-    right: 87px;
+    right: 80px;
     bottom: 96px;
 }
 
