@@ -1,18 +1,23 @@
 .header {
     height: 293px;
-    width: 1100px   ;
+    width: 1100px;
     max-width: 100%;
     box-sizing: border-box;
 }
 
 .header_content {
     position: relative;
+    height: 293px;
+    width: 1100px;
 }
 
 .header_navigation{
     position: absolute;
-    left: 0;
+    left: 50px;
     top: 135px;
+    height: 22px;
+    width: 391.48px;
+    white-space: nowrap;
 }
 
 .header_navigation_links {
@@ -26,7 +31,6 @@
     flex-direction: row;
     list-style-type: circle;
     gap: 30px;
-    padding: 0 0 0 50px;
 }
 
 .links_navigation {
@@ -35,34 +39,59 @@
 }
 
 .link_main {
+    width: 67px;
+    height: 21px;
     text-decoration: none;
     list-style-type: none;
 }
 
 .link_lots {
-    gap: 2px;
+    position: absolute;
+    left: 113px;
 }
 
 .link_auction {
-    gap: 5px;
+    position: absolute;
+    left: 312px;
 }
 
 .header_logo {
     position: absolute;
-    left: 475px;
-    top: 85px;
+    top: 92px;
+    left: 478px;
+    width: 148px;
+    height: 105px;
+}
+
+.header_logo_help {
+    position: relative;
+    width: 148px;
+    height: 105px;
+}
+
+.logo_border {
+    position: absolute;
+    top: 2.79px;
+    left: 11.39px;
+    width: 124.05px;
+    height: 94.84px;
+    border: 6px solid #000;
 }
 
 .header_logo_image {
-    width: 145px;
-    height: 120px;
+    position: absolute;
+    top: 1.16px;
+    left: 9.03px;
+    width: 129.11px;
+    height: 104.65px;
 }
 
 .header_links {
     position: absolute;
-    top: 96px;
-    right: 80px;
-    bottom: 96px;
+    top: 95px;
+    left: 810px;
+    width: 240px;
+    height: 98px;
 }
 
 .header_links_list {
@@ -81,8 +110,22 @@
     border-bottom: 1px solid #000;
 }
 
+.link_number {
+    width: 239.48px;
+    height: 24px;
+    margin-bottom: 0;
+}
+
 .link_mail {
+    width: 239.48px;
+    height: 24px;
     text-decoration: none;
+    margin-bottom: 1px;
+}
+
+.link_adress {
+    width: 236.49px;
+    height: 49px;
 }
 
 .cover {
