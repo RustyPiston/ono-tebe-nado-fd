@@ -11,8 +11,8 @@
 
 .header_navigation{
     position: absolute;
-    left: 30px;
-    top: 133px;
+    left: 0;
+    top: 132px;
     right: 36.5px;
 }
 
@@ -30,8 +30,8 @@
 
 .header_logo {
     position: absolute;
-    left: 488px;
-    top: 92px;
+    left: 482px;
+    top: 89px;
 }
 
 .header_logo_image {
@@ -42,7 +42,7 @@
 .header_links {
     position: absolute;
     top: 95px;
-    right: 70px;
+    right: 110px;
     bottom: 100px;
 }
 
