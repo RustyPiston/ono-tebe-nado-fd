@@ -156,8 +156,8 @@
 
 .span_right {
     position: absolute;
-    top: 310px;
-    left: 712px;
+    top: 269px;
+    left: 613px;
     text-align: right;
 }
 
@@ -192,9 +192,40 @@
 
 .description_text {
     position: absolute;
-    word-spacing: 10px;
     left: 0;
     padding: 12px 0;
+}
+
+.description_span {
+    display: inline-block;
+}
+
+.span_1 {
+
+}
+
+.span_2 {
+    margin-left: 20px;
+}
+
+.span_3 {
+    margin-left: 20px;
+}
+
+.span_4 {
+    margin-left: 20px;
+}
+
+.span_5 {
+    margin-left: 20px;
+}
+
+.span_6 {
+    margin-left: 20px;
+}
+
+.span_7 {
+    margin-left: 20px;
 }
 
 .button {
@@ -209,7 +240,7 @@
     border: 1px solid #fff;
     white-space: nowrap;
     width: 256px;
-    height: 48px;
+    height: 44px;
     position: absolute;
     right: 0;
     padding: 12px 32px;
