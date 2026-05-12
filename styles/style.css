@@ -1,55 +1,134 @@
 .header {
     height: 293px;
-    width: 1100px   ;
+    width: 1100px;
     max-width: 100%;
     box-sizing: border-box;
 }
 
 .header_content {
     position: relative;
+    height: 293px;
+    width: 1100px;
 }
 
 .header_navigation{
     position: absolute;
     left: 50px;
-    top: 133px;
-    right: 36.5px;
+    top: 135px;
+    height: 22px;
+    width: 391.48px;
+    white-space: nowrap;
 }
 
 .header_navigation_links {
+    font-family: Raleway;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 18px;
+    line-height: 100%;
+    letter-spacing: 0%;
     display: flex;
     flex-direction: row;
+    list-style-type: circle;
     gap: 30px;
-    padding: 0 0 0 50px;
+}
+
+.links_navigation {
+    text-decoration: none;
+    border-bottom: 1px solid #000;
 }
 
 .link_main {
+    width: 67px;
+    height: 21px;
     text-decoration: none;
     list-style-type: none;
 }
 
+.link_lots {
+    position: absolute;
+    left: 100px;
+}
+
+.link_auction {
+    position: absolute;
+    left: 283px;
+}
+
 .header_logo {
     position: absolute;
-    left: 478px;
     top: 92px;
+    left: 478px;
+    width: 148px;
+    height: 105px;
+}
+
+.header_logo_help {
+    position: relative;
+    width: 148px;
+    height: 105px;
+}
+
+.logo_border {
+    position: absolute;
+    top: 2.79px;
+    left: 11.39px;
+    width: 124.05px;
+    height: 94.84px;
+    border: 6px solid #000;
 }
 
 .header_logo_image {
-    width: 129px;
-    height: 105px;
+    position: absolute;
+    top: 1.16px;
+    left: 9.03px;
+    width: 129.11px;
+    height: 104.65px;
 }
 
 .header_links {
     position: absolute;
     top: 95px;
-    right: 50px;
-    bottom: 100px;
+    left: 810px;
+    width: 240px;
+    height: 98px;
 }
 
 .header_links_list {
+    font-family: Raleway;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 19px;
+    line-height: 24.3px;
+    letter-spacing: 0%;
     display: flex;
     flex-direction: column;
     list-style-type: none;
+}
+
+.header_links_list_content {
+    border-bottom: 1px solid #000;
+}
+
+.link_number {
+    width: 239.48px;
+    height: 24px;
+    margin-bottom: 0;
+    letter-spacing: 0.2px;
+}
+
+.link_mail {
+    width: 239.48px;
+    height: 24px;
+    text-decoration: none;
+    margin-bottom: 1px;
+    letter-spacing: 0.2px;
+}
+
+.link_adress {
+    width: 236.49px;
+    height: 49px;
+    letter-spacing: 0.01px;
 }
 
 .cover {
@@ -94,15 +173,26 @@
     letter-spacing: 30px;
 }
 
+.text_span_help {
+    position: relative;
+}
+
 .span_left {
+    position: absolute;
     text-align: left;
 }
 
 .span_center {
+    position: absolute;
+    top: 140px;
+    left: 320px;
     text-align: center;
 }
 
 .span_right {
+    position: absolute;
+    top: 290px;
+    left: 663px;
     text-align: right;
 }
 
@@ -137,7 +227,7 @@
 
 .description_text {
     position: absolute;
-    word-spacing: 15px;
+    word-spacing: 10px;
     left: 0;
     padding: 12px 0;
 }
@@ -183,7 +273,7 @@
 
 .header_content_text {
     position: absolute;
-    top: 0;
+    top: 4px;
     left: 40px;
     font-family: Raleway;
     font-weight: 700;
@@ -245,10 +335,11 @@
     line-height: 120%;
     letter-spacing: 0%;
     text-transform: uppercase;
-    text-decoration: underline;
+    text-decoration: none;
     text-decoration-style: solid;
     text-decoration-thickness: 0%;
     color: #fff;
+    border-bottom: 1px solid #fff;
 }
 
 .first_card_content {
@@ -310,10 +401,11 @@
     line-height: 120%;
     letter-spacing: 0%;
     text-transform: uppercase;
-    text-decoration: underline;
+    text-decoration: none;
     text-decoration-style: solid;
     text-decoration-thickness: 0%;
     color: #fff;
+    border-bottom: 1px solid #fff;
 }
 
 .second_card_content {
@@ -375,10 +467,11 @@
     line-height: 120%;
     letter-spacing: 0%;
     text-transform: uppercase;
-    text-decoration: underline;
+    text-decoration: none;
     text-decoration-style: solid;
     text-decoration-thickness: 0%;
     color: #fff;
+    border-bottom: 1px solid #fff;
 }
 
 .third_card_content {
@@ -413,6 +506,8 @@
     font-size: 20px;
     line-height: 100%;
     letter-spacing: 0%;
+    text-decoration: none;
+    border-bottom: 1px solid #fff;
 }
 
 .about {
@@ -470,7 +565,7 @@
 .about_content_auction_title_text {
     position: absolute;
     left: 0;
-    top: 3px;
+    top: 7px;
     font-family: Raleway;
     font-weight: 700;
     font-style: Bold;
@@ -483,7 +578,7 @@
 .about_content_auction_main {
     position: absolute;
     right: 0;
-    bottom: 13px;
+    bottom: -13px;
 }
 
 .about_content_auction_main_list {
@@ -500,6 +595,11 @@
     font-size: 20px;
     line-height: 24px;
     letter-spacing: 0%;
+}
+
+.about_content_auction_main_text .first_text {
+    position: absolute;
+    bottom: -13px;
 }
 
 .footer {
