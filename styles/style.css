@@ -506,7 +506,7 @@
     font-size: 20px;
     line-height: 100%;
     letter-spacing: 0%;
-    text-decoration: underline #fff 1px;
+    text-decoration: underline 1px;
     text-underline-offset: 5px;
 }
 
@@ -611,24 +611,79 @@
 
 .main_info {
     position: absolute;
-    top: 20px;
+    top: 0;
     left: 50px;
+}
+
+.main_info_help {
+    position: relative;
 }
 
 .main_info_links {
     list-style-type: none;
 }
 
+.main_info_links_number {
+    position: absolute;
+    top: 0;
+    width: 131px;
+    text-decoration: underline 1px;
+    text-underline-offset: 3px;
+}
+
+.main_info_links_mail {
+    position: absolute;
+    top: 21px;
+    width: 131px;
+    text-decoration: underline 1px;
+    text-underline-offset: 4px;
+}
+
+.main_info_links_adress {
+    position: absolute;
+    top: 46px;
+    width: 236px;
+}
+
 .main_links {
     position: absolute;
-    top: 6px;
-    left: 460.6px;
+    top: 0;
+    left: 468.6px;
     right: 467.5px;
+    width: 164px;
+    height: 64px;
 }
 
 .footer_navigation_links {
+    position: relative;
+    width: 164px;
+    height: 64px;
     list-style-type: none;
     text-align: center;
+}
+
+.link_footer_main {
+    position: absolute;
+    left: 54px;
+    top: 0;
+}
+
+.link_footer_lots {
+    position: absolute;
+    top: 21px;
+    left: 10.5px;
+    text-decoration: underline 1px;
+    text-underline-offset: 4px;
+    width: 146px;
+}
+
+.link_footer_about {
+    position: absolute;
+    top: 42px;
+    left: 30px;
+    text-decoration: underline 1px;
+    text-underline-offset: 4px;
+    width: 106px;
 }
 
 .links_media {
