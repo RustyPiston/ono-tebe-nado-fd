@@ -47,11 +47,11 @@
 }
 
 .link_lots {
-    margin-left: 5px;
+    margin-left: 1px;
 }
 
 .link_auction {
-    margin-left: 10px;
+    margin-left: 1px;
 }
 
 .header_logo {
@@ -72,8 +72,8 @@
     position: absolute;
     top: 2.79px;
     left: 11.39px;
-    width: 124.05px;
-    height: 94.84px;
+    width: 127.05px;
+    height: 97.84px;
     border: 6px solid #000;
 }
 
@@ -81,8 +81,8 @@
     position: absolute;
     top: 1.16px;
     left: 9.03px;
-    width: 129.11px;
-    height: 104.65px;
+    width: 132.11px;
+    height: 107.65px;
 }
 
 .header_links {
@@ -106,9 +106,19 @@
 }
 
 .link_number {
-    letter-spacing: 0.5px;
+    letter-spacing: 0.1px;
     text-decoration: underline 1px;
     text-underline-offset: 4px;
+}
+
+.link_mail {
+    letter-spacing: 0.2px;
+    text-decoration: underline 1px;
+    text-underline-offset: 4.3px;
+}
+
+.link_adress {
+    letter-spacing: 0px;
 }
 /* Конец Header */
 
