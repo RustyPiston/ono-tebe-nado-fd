@@ -46,6 +46,14 @@
     list-style-type: none;
 }
 
+.link_lots {
+    margin-left: 5px;
+}
+
+.link_auction {
+    margin-left: 10px;
+}
+
 .header_logo {
     position: absolute;
     top: 92px;
@@ -95,6 +103,12 @@
     display: flex;
     flex-direction: column;
     list-style-type: none;
+}
+
+.link_number {
+    letter-spacing: 0.5px;
+    text-decoration: underline 1px;
+    text-underline-offset: 4px;
 }
 /* Конец Header */
 
@@ -220,20 +234,19 @@
 }
 
 .span_5 {
-    margin-left: 11px;
+    margin-left: 16px;
 }
 
 .span_6 {
-    margin-left: 13px;
+    margin-left: 20px;
 }
 
 .span_7 {
-    margin-left: 11px;
+    margin-left: 18px;
 }
 
 .button {
     font-family: Raleway;
-    font-weight: 400;
     font-style: Regular;
     font-size: 22px;
     line-height: 100%;
@@ -251,6 +264,7 @@
 
 .button_click {
     text-decoration: none;
+    font-weight: 400;
 }
 /* Конец Cover */
 
