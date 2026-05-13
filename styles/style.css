@@ -12,7 +12,7 @@
     width: 1100px;
 }
 
-.header_navigation{
+.header_navigation {
     position: absolute;
     left: 50px;
     top: 135px;
@@ -227,10 +227,6 @@
     display: inline-block;
 }
 
-.span_1 {
-
-}
-
 .span_2 {
     margin-left: 20px;
 }
@@ -346,8 +342,6 @@
 
 .first_card_title {
     position: absolute;
-    width: 254px;
-    height: 82px;
     z-index: 3;
     left: 40px;
     top: 48px;
@@ -372,7 +366,6 @@
 .first_card_content {
     position: absolute;
     width: 254px;
-    height: 144px;
     z-index: 3;
     left: 40px;
     bottom: 48px;
@@ -439,7 +432,6 @@
 .second_card_content {
     position: absolute;
     width: 254px;
-    height: 360px;
     z-index: 3;
     left: 40px;
     bottom: 48px;
@@ -507,7 +499,7 @@
     position: absolute;
     width: 254px;
     height: 264px;
-    z-index: 3;
+    z-index: 4;
     left: 40px;
     bottom: 48px;
 }
