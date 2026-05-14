@@ -1,644 +1,270 @@
-/* Начало Header */
-header {
+/*----------------------------------------- Начало Header -----------------------------------------*/
+.header {
     height: 293px;
     width: 1100px;
     max-width: 100%;
 }
 
 .header_content {
-    height: 293px;
     width: 1100px;
+    height: 293px;
     display: grid;
     grid-template-columns: 1fr min-content 1fr;
-    justify-items: center;
-}
-
-.header_nav {
-    display: grid;
     align-items: center;
 }
 
-.header_nav_links {
-    display: grid;
-    grid-auto-flow: column;
-}
-
-/* Конец Header */
-
-/* Начало Cover */
-/*
-.cover {
-    text-align: center;
-    position: relative;
-    height: 757px;
-}
-
-.cover_image {
-    height: 757px;
-    width: 1100px;
-    z-index: 1;
-}
-
-.cover_dark {
-    position: absolute;
-    height: 757px;
-    width: 1100px;
-    background-color: #000;
-    top: 0;
-    left: 0;
-    opacity: 0.6;
-    z-index: 2;
-}
-
-.text_span {
-    position: absolute;
-    top: 165px;
-    left: 50px;
-    color: #fff;
-    z-index: 3;
-    width: 1000px;
-}
-
-.text_span_cover {
-    display: block;
-    font-family: Raleway, serif;
-    font-weight: 700;
-    font-size: 100px;
-    font-style: bold;
-    line-height: 115%;
-    letter-spacing: 30px;
-}
-
-.text_span_help {
-    position: relative;
-}
-
-.span_left {
-    position: absolute;
-    text-align: left;
-}
-
-.span_center {
-    position: absolute;
-    top: 136px;
-    left: 331px;
-    text-align: center;
-}
-
-.span_right {
-    position: absolute;
-    top: 269px;
-    left: 613px;
-    text-align: right;
-}
-
-.spacing {
-    text-align: right;
-    letter-spacing: 30px;
-}
-
-.no_spacing {
-    letter-spacing: 0;
-}
-
-.description {
-    position: absolute;
-    height: 51px;
-    width: 1000px;
-    left: 50px;
-    bottom: 50px;
-    color: #fff;
-    z-index: 3;
-    font-family: Raleway, serif;
+.header_navigation {
+    margin: 134px 0 138px 50px;
+    font-family: Raleway;
     font-weight: 400;
-    font-size: 22px;
-    font-style: bold;
-    line-height: 28px;
-    letter-spacing: 0;
-    text-transform: uppercase;
-    justify-content: center;
-    text-align: center;
+    font-style: Regular;
+    font-size: 18px;
+    line-height: 100%;
+    letter-spacing: 0%;
+}
+
+.header_navigation_links {
+    display: grid;
+    grid-template-columns: 67px 167px 116.8px;
+    grid-auto-flow: column;
+    gap: 20px;
+    justify-items: center;
+    list-style-type: circle;
+    list-style-position: outside;
+}
+
+.link_main { 
+    width: ;
+}
+
+.link_lots {
+    list-style-position: outside;
+    padding-left: 0.5px;
+}
+
+.link_lots_text {
+    display: inline-block;
+    width: 151px;
+    height: 20px;
+    text-decoration: none;
+    margin-left: 6px;
+    margin-bottom: -0.7px;
+    border-bottom: 1px solid;
+}
+
+.link_auction_text {
+    display: inline-block;
+    width: 110px;
+    height: 20px;
+    text-decoration: none;
+    margin-left: 8px;
+    margin-bottom: -0.9px;
+    border-bottom: 1px solid;
+}
+
+.header_logo {
+    width: 148px;
+    height: 293px;
     box-sizing: border-box;
 }
 
-.description_text {
-    position: absolute;
-    left: 0;
-    padding: 12px 0;
+.header_logo_border {
+    margin: 92px 0 0 10.5px;
+    width: 130px;
+    height: 120px;
+    border-top: 4px solid;
 }
 
-.description_span {
-    display: inline-block;
+.header_logo_image {
+    margin: -19.2px 0 0 -3.9px;
+    padding: 0;
+    width: 136px;
+    height: 137px;
 }
 
-.span_2 {
-    margin-left: 20px;
-}
-
-.span_3 {
-    margin-left: 17px;
-}
-
-.span_4 {
-    margin-left: 20px;
-}
-
-.span_5 {
-    margin-left: 16px;
-}
-
-.span_6 {
-    margin-left: 20px;
-}
-
-.span_7 {
-    margin-left: 18px;
-}
-
-.button {
+.header_links {
+    height: 293px;
     font-family: Raleway;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 18px;
+    line-height: 24.3px;
+    letter-spacing: 0%;
+    box-sizing: border-box;
+}
+
+.header_links_list {
+    margin: 95px 0 0 186px;
+}
+
+.link_number {
+    list-style-type: none;
+    height: 24px;
+    width: 133px;
+    border-bottom: 1px solid;
+}
+
+.link_number_text {
+    text-decoration: none;
+    padding: 8px 0 0 0.5px;
+}
+
+.link_mail {
+    list-style-type: none;
+    height: 24px;
+    width: 130px;
+    border-bottom: 1px solid;
+}
+
+.link_mail_text {
+    text-decoration: none;
+}
+
+.link_adress{
+    list-style-type: none;
+    width: 230px;
+    height: 50px;
+}
+
+.link_adress_text {
+    padding: 1px 0 0 1px;
+}
+/*----------------------------------------- Конец Header -----------------------------------------*/
+/*----------------------------------------- Начало Cover -----------------------------------------*/
+.cover {
+    position: relative;
+    width: 1100px;
+    height: 757px;
+    background-image: url(/images/cover.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.cover_background_dark {
+    position: absolute;
+    width: 1100px;
+    height: 757px;
+    z-index: 1;
+    background-color: #000;
+    opacity: 0.6;
+}
+
+.cover_content {
+    position: absolute;
+    z-index: 2;
+    width: 1100px;
+    height: 757px;
+}
+
+.cover_main {
+    width: 1100px;
+    height: 600px;
+}
+
+.cover_title {
+    position: absolute;
+    z-index: 2;
+    width: 1100px;
+    height: 600px;
+}
+.cover_span {
+    display: block;
+    font-family: Raleway;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 100px;
+    line-height: 114.99999999999999%;
+    letter-spacing: 30%;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.text_left {
+    margin: 165px 0 0 50px;
+}
+
+.text_center {
+    margin: 20px 0 0 380px;
+}
+
+.text_right {
+    margin: 20px 50px 0 663px;
+}
+
+.cover_footer {
+    position: absolute;
+    z-index: 2;
+    top: 600px;
+    width: 1100px;
+    height: 157px;
+}
+
+.cover_descripion {
+    font-family: Raleway;
+    font-weight: 400;
     font-style: Regular;
     font-size: 22px;
-    line-height: 100%;
+    line-height: 28px;
     letter-spacing: 0%;
-    text-align: center;
     text-transform: uppercase;
-    border: 1px solid #fff;
-    white-space: nowrap;
-    width: 256px;
-    height: 51px;
-    position: absolute;
-    right: 0;
-    padding: 12px 32px;
+    color: #fff;
 }
-
-.button_click {
-    text-decoration: none;
-    font-weight: 400;
-}
-/* Конец Cover */
-
-/*  Начало Cards */
+/*----------------------------------------- Конец Cover -----------------------------------------*/
+/*----------------------------------------- Начало Cards -----------------------------------------*/
 .cards {
-    position: relative;
-    margin: 0 24px 0;
+    width: 1052px;
+    height: 723px;
+    margin: 180px 24px 120px;
+}
+
+.cards_content {
     width: 1052px;
     height: 723px;
 }
 
-.cards_content {
-    margin: 180px 0 0 0;
-    width: 100%;
-    height: 100%;
-}
-
-.cards_header {
-    position: relative;
+.cards_title {
     width: 1052px;
+    height: 74px;
+    border-left: 5px solid blue;
 }
 
-.header_content_text {
-    position: absolute;
-    top: 4px;
-    left: 40px;
-    font-family: Raleway;
-    font-weight: 700;
-    font-style: Bold;
-    font-size: 40px;
-    line-height: 100%;
-    letter-spacing: 0%;
-    text-transform: uppercase;
-
-}
-
-.lots_list {
-    position: absolute;
-    top: 74px;
-    display: flex;
-    list-style: none;
-    padding: 0;
-    gap: 25px;
-    box-sizing: border-box;
-}
-
-.first_card {
-    position: relative;
-    width: 334px;
+.cards_main {
+    width: 1052px;
     height: 596px;
-    overflow: hidden;
-}
-
-.first_card_image {
-    position: absolute;
-    width: 520px;
-    height: 100%;
-    left: -85px;
-}
-
-.first_card_dark {
-    position: absolute;
-    width: 334px;
-    height: 596px;
-    z-index: 2;
-    background-color: #000;
-    opacity: 0.6;
-}
-
-.first_card_title {
-    position: absolute;
-    z-index: 3;
-    left: 40px;
-    top: 48px;
-}
-
-.first_card_title_text {
-    font-family: Raleway;
-    font-weight: 700;
-    font-style: Bold;
-    font-size: 22px;
-    line-height: 120%;
-    letter-spacing: 0%;
-    text-transform: uppercase;
-    text-decoration: none;
-    text-decoration-style: solid;
-    text-decoration-thickness: 0%;
-    color: #fff;
-    text-decoration: underline #fff 1px;
-    text-underline-offset: 3px;
-}
-
-.first_card_content {
-    position: absolute;
-    width: 254px;
-    z-index: 3;
-    left: 40px;
-    bottom: 48px;
-}
-
-.first_card_content_text {
-    font-family: Raleway;
-    font-weight: 400;
-    font-style: Regular;
-    font-size: 20px;
-    line-height: 120%;
-    letter-spacing: 0%;
-    color: #fff;
-}
-
-.second_card {
-    position: relative;
-    width: 334px;
-    height: 596px;
-    overflow: hidden;
-}
-
-.second_card_image {
-    position: absolute;
-    width: 520px;
-    height: 100%;
-    left: -94px;
-}
-
-.second_card_dark {
-    position: absolute;
-    width: 334px;
-    height: 596px;
-    z-index: 2;
-    background-color: #000;
-    opacity: 0.6;
-}
-
-.second_card_title {
-    position: absolute;
-    width: 254px;
-    height: 110px;
-    z-index: 3;
-    left: 40px;
-    top: 48px;
-}
-
-.second_card_title_text {
-    font-family: Raleway;
-    font-weight: 700;
-    font-style: Bold;
-    font-size: 22px;
-    line-height: 120%;
-    letter-spacing: 0%;
-    text-transform: uppercase;
-    text-decoration: none;
-    text-decoration-style: solid;
-    text-decoration-thickness: 0%;
-    color: #fff;
-    text-decoration: underline #fff 1px;
-    text-underline-offset: 3px;
-}
-
-.second_card_content {
-    position: absolute;
-    width: 254px;
-    z-index: 3;
-    left: 40px;
-    bottom: 48px;
-}
-
-.second_card_content_text {
-    font-family: Raleway;
-    font-weight: 400;
-    font-style: Regular;
-    font-size: 20px;
-    line-height: 120%;
-    letter-spacing: 0%;
-    color: #fff;
-}
-
-.third_card {
-    position: relative;
-    width: 334px;
-    height: 596px;
-    overflow: hidden;
-}
-
-.third_card_image {
-    position: absolute;
-    width: 520px;
-    height: 100%;
-    left: -106px;
-}
-
-.third_card_dark {
-    position: absolute;
-    width: 334px;
-    height: 596px;
-    z-index: 2;
-    background-color: #000;
-    opacity: 0.6;
-}
-
-.third_card_title {
-    position: absolute;
-    width: 254px;
-    height: 110px;
-    z-index: 3;
-    left: 40px;
-    top: 48px;
-}
-
-.third_card_title_text {
-    font-family: Raleway;
-    font-weight: 700;
-    font-style: Bold;
-    font-size: 22px;
-    line-height: 120%;
-    letter-spacing: 0%;
-    text-transform: uppercase;
-    text-decoration: none;
-    text-decoration-style: solid;
-    text-decoration-thickness: 0%;
-    color: #fff;
-    text-decoration: underline #fff 1px;
-    text-underline-offset: 3px;
-}
-
-.third_card_content {
-    position: absolute;
-    width: 254px;
-    height: 264px;
-    z-index: 4;
-    left: 40px;
-    bottom: 48px;
-}
-
-.third_card_content_text {
-    font-family: Raleway;
-    font-weight: 400;
-    font-style: Regular;
-    font-size: 20px;
-    line-height: 120%;
-    letter-spacing: 0%;
-    color: #fff;
+    border-left: 5px solid red;
 }
 
 .cards_footer {
-    position: absolute;
-    left: 40px;
-    bottom: 0;
+    width: 1052px;
+    height: 53px;
+    border-left: 5px solid purple;
 }
-
-.cards_footer_text {
-    font-family: Raleway;
-    font-weight: 400;
-    font-style: Regular;
-    font-size: 20px;
-    line-height: 100%;
-    letter-spacing: 0%;
-    text-decoration: underline 1px;
-    text-underline-offset: 5px;
-}
-/* Конец Cards */
-
-/* Начало About */
+/*----------------------------------------- Конец Cards -----------------------------------------*/
+/*----------------------------------------- Начало About -----------------------------------------*/
 .about {
-    position: relative;
     width: 1052px;
     height: 595px;
-    margin: 120px 24px 0;
+    margin: 0 24px;
 }
 
-.about_logo_help {
-    position: absolute;
-    top: 35px;
-    left: 47px;
+.about_content {
+    display: grid;
+    grid-template-columns: min-content 1fr;
+    width: 1052px;
+    height: 595px;
 }
 
 .about_logo {
-    position: relative;
     width: 240px;
     height: 240px;
+    margin: 35px 0 0 47px;
 }
 
-.about_logo_background {
-    position: absolute;
-    background-color: #000;
-    width: 240px;
-    height: 240px;
-    border-radius: 170px;
-    z-index: 1;
-}
-
-.about_logo_image {
-    position: absolute;
-    top: 64px;
-    left: 46.48px;
-    z-index: 2;
-    width: 148px;
-    height: 114px;
-}
-
-.about_content_auction {
-    position: absolute;
-    top: 133px;
-    right: 0;
-    bottom: 13px;
+.about_main {
     width: 693px;
     height: 449px;
+    margin: 133px 0 13px 70px;
+    border: 1px solid;
 }
-
-.about_content_auction_help {
-    position: relative;
-    width: 693px;
-    height: 449px;
-}
-
-.about_content_auction_title_text {
-    position: absolute;
-    left: 0;
-    top: 7px;
-    font-family: Raleway;
-    font-weight: 700;
-    font-style: Bold;
-    font-size: 40px;
-    line-height: 100%;
-    letter-spacing: 0%;
-    text-transform: uppercase;
-}
-
-.about_content_auction_main {
-    position: absolute;
-    right: 0;
-    bottom: -13px;
-}
-
-.about_content_auction_main_list {
-    list-style-type: none;
-    display: flex;
-    flex-direction: column;
-    row-gap: 30px;
-}
-
-.about_content_auction_main_text {
-    font-family: Raleway;
-    font-weight: 400;
-    font-style: Regular;
-    font-size: 20px;
-    line-height: 24px;
-    letter-spacing: 0%;
-}
-
-.first_text {
-    position: absolute;
-    top: -144px;
-}
-
-.footer {
-    position: relative;
-    width: 1100px;
-    height: 180px;
-    margin-top: 180px;
-}
-/* Конец About */
-
-/* Начало Footer */
-.main_info {
-    position: absolute;
-    top: 0;
-    left: 51px;
-}
-
-.main_info_help {
-    position: relative;
-}
-
-.main_info_links {
-    list-style-type: none;
-}
-
-.main_info_links_number {
-    position: absolute;
-    top: 3px;
-    width: 133px;
-    text-decoration: underline 1px;
-    text-underline-offset: 3px;
-    letter-spacing: 0.92px;
-}
-
-.main_info_links_mail {
-    position: absolute;
-    top: 28px;
-    width: 131px;
-    text-decoration: underline 1px;
-    text-underline-offset: 4px;
-    letter-spacing: 0.93px;
-}
-
-.main_info_links_adress {
-    position: absolute;
-    top: 52px;
-    width: 237px;
-    letter-spacing: 0.95px;
-}
-
-.main_links {
-    position: absolute;
-    top: 3px;
-    left: 468.6px;
-    right: 467.5px;
-    width: 164px;
-    height: 64px;
-    letter-spacing: 0.9px;
-}
-
-.footer_navigation_links {
-    position: relative;
-    width: 164px;
-    height: 64px;
-    list-style-type: none;
-    text-align: center;
-}
-
-.link_footer_main {
-    position: absolute;
-    left: 54px;
-    top: 0;
-}
-
-.link_footer_lots {
-    position: absolute;
-    top: 21px;
-    left: 10.5px;
-    text-decoration: underline 1px;
-    text-underline-offset: 4px;
-    width: 146px;
-}
-
-.link_footer_about {
-    position: absolute;
-    top: 42px;
-    left: 30px;
-    text-decoration: underline 1px;
-    text-underline-offset: 4px;
-    width: 106px;
-}
-
-.links_media {
-    position: absolute;
-    top: 1px;
-    right: 50px;
-    display: flex;
-    width: 240px;
-    height: 48px;
-    justify-content: space-between;
-}
-
-.links_footer {
-    width: 48px;
-    height: 48px;
-}
-
-.links_media_yt {
-    justify-content: start;
-}
-
-.links_media_vk {
-    justify-items: center;
-}
-/* Конец Footer */
+/*----------------------------------------- Конец About -----------------------------------------*/
