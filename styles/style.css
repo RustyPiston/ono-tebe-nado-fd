@@ -122,7 +122,7 @@
     text-decoration: none;
 }
 
-.link_adress{
+.link_adress {
     list-style-type: none;
     width: 230px;
     height: 50px;
@@ -130,6 +130,7 @@
 
 .link_adress_text {
     padding: 1px 0 0 1px;
+    white-space: nowrap;
 }
 /*----------------------------------------- Конец Header -----------------------------------------*/
 /*----------------------------------------- Начало Cover -----------------------------------------*/
@@ -440,7 +441,7 @@ footer {
     grid-auto-flow: column;
 }
 
-.footer_links_list{
+.footer_links_list {
     margin: 0px 0 0 50px;
     height: 150px;
     font-family: Raleway;
@@ -449,10 +450,6 @@ footer {
     font-size: 18px;
     line-height: 25px;
     letter-spacing: 0%;
-}
-
-.link_adress_text {
-    white-space: nowrap;
 }
 
 .footer_navigation {
