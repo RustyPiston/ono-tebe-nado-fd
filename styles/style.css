@@ -113,7 +113,7 @@
     position: relative;
     width: 1100px;
     height: 757px;
-    background-image: url(/images/cover.jpg);
+    background-image: url(../images/cover.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -308,14 +308,14 @@
 }
 
 .left_card {
-    background-image: url(/images/card-lot-01.jpg);
+    background-image: url(../images/card-lot-01.jpg);
     background-repeat: no-repeat;
     background-size: 550px 600px;
     background-position: -109px -2px;
 }
 
 .center_card {
-    background-image: url(/images/card-lot-02.jpg);
+    background-image: url(../images/card-lot-02.jpg);
     background-repeat: no-repeat;
     background-size: 550px 600px;
     background-position: -109px -2px;
@@ -323,7 +323,7 @@
 
 .right_card {
 
-    background-image: url(/images/card-lot-03.jpg);
+    background-image: url(../images/card-lot-03.jpg);
     background-repeat: no-repeat;
     background-size: 550px 600px;
     background-position: -113px -2px;
