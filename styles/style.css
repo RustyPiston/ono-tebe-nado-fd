@@ -1,28 +1,32 @@
+/*----------------------------------------- Общие стили -----------------------------------------*/
+.overlay_dark {
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+}
 /*----------------------------------------- Начало Header -----------------------------------------*/
 .header {
     width: 1100px;
-    max-width: 100%;
     display: grid;
     grid-template-columns: 1fr min-content 1fr;
     align-items: center;
+    justify-items: center;
 }
 
 .header_menu {
-    padding-left: 50px;
     font-family: 'Raleway', sans-serif;
     font-weight: 400;
     font-style: normal;
     font-size: 18px;
-    letter-spacing: 2%;
 }
 
 .header_links-list {
     display: flex;
-    gap: 12px;
-    justify-items: center;
+    padding-left: 6px;
+    padding-top: 87px;
+    gap: 33px; 
     list-style-type: circle;
     white-space: nowrap;
-    list-style-position: inside;
 }
 
 .header_links-list-item_no-bullit {
@@ -30,56 +34,49 @@
 }
 
 .header_links-list-item {
-    text-indent: -9px;
-    padding-left: 6px;
-    margin-left: 0px;
     text-decoration: underline;
     text-underline-offset: 4px;
 }
 
 .header_logo {
-    width: 148px;
-    height: 293px;
-    box-sizing: border-box;
+    align-content: center;
+    justify-content: center;
+    padding-top: 92px;
 }
 
 .header_logo_image {
-    margin: -19.2px 0 0 -3.9px;
-    padding: 0;
     width: 136px;
-    height: 137px;
 }
 
-.header_contacts {
-    height: 293px;
+.contacts_menu {
+    list-style-type: none;
     font-family: 'Raleway', sans-serif;
     font-weight: 400;
     font-style: normal;
     font-size: 18px;
-    line-height: 24.3px;
-    letter-spacing: 0%;
-    box-sizing: border-box;
+    line-height: 24px;
 }
 
-.header_contacts_list {
-    margin: 95px 0 0 186px;
+a.contact_item {
+    text-decoration: underline;
+    text-underline-offset: 4px;
 }
 
-.contact_numbers {
-    list-style-type: none;
-    height: 24px;
-    width: 133px;
-    border-bottom: 1px solid;
+.address_menu.header_contacts {
+    padding-top: 90px;
+}
+
+.address_menu.header_contacts {
+    padding-left: 131px;
+    width: 360px;
 }
 
 .contact_number {
     text-decoration: none;
-    padding: 8px 0 0 0.5px;
 }
 
 .contact_mail {
     list-style-type: none;
-    height: 24px;
     width: 130px;
     border-bottom: 1px solid;
 }
@@ -95,48 +92,39 @@
 }
 
 .contact_adress_text {
-    padding: 1px 0 0 1px;
     white-space: nowrap;
 }
 /*----------------------------------------- Конец Header -----------------------------------------*/
 /*----------------------------------------- Начало Cover -----------------------------------------*/
 .cover {
-    position: relative;
+    margin-top: 92px;
     width: 1100px;
-    height: 757px;
+    min-height: 757px;
+    display: flex;
+    flex-direction: column;
     background-image: url(../images/cover.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
 }
 
-.cover_background_dark {
-    position: absolute;
-    width: 1100px;
-    height: 757px;
-    z-index: 1;
-    background-color: #000;
-    opacity: 0.6;
+.overlay_dark {
+    flex: 1;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    background-color: rgba(0, 0, 0, 0.6);
 }
-
 .cover_content {
-    position: absolute;
-    z-index: 2;
     width: 1100px;
-    height: 757px;
-}
-
-.cover_main {
-    width: 1100px;
-    height: 600px;
 }
 
 .cover_title {
-    position: absolute;
-    z-index: 2;
     width: 1100px;
-    height: 600px;
 }
+
 .cover_span {
     display: block;
     font-family: 'Raleway', sans-serif;
@@ -150,31 +138,27 @@
 }
 
 .text_left {
-    margin: 165.7px 0 0 49.9px;
+    padding: 165.7px 0 0 49.9px;
 }
 
 .text_center {
-    margin: 20.8px 0 0 380.6px;
+    padding: 20.8px 0 0 380.6px;
 }
 
 .text_right {
-    margin: 21px 50px 0 663.8px;
+    padding: 21px 50px 0 663.8px;
 }
-
 .cover_footer {
+    padding-top: 101px;
     display: grid;
     grid-template-columns: 700px 400px;
-    position: absolute;
-    z-index: 2;
-    top: 600px;
-    width: 1100px;
-    height: 157px;
 }
 
 .cover_descripion {
+    display: inline-block;
     font-family: 'Raleway', sans-serif;
     font-weight: 400;
-    font-style: Regular;
+    font-style: normal;
     font-size: 22px;
     line-height: 28px;
     letter-spacing: 0%;
@@ -183,8 +167,8 @@
 }
 
 .cover_descripion_text {
-    width: 700px;
-    margin: 68.3px 0 0 50px;
+    max-width: 700px;
+    padding: 18px 0 0 50px;
     word-spacing: 18.5px;
     color: #fff;
     font-family: Raleway;
@@ -197,12 +181,11 @@
 }
 
 .button {
-    grid-column: 2;
-    grid-row: 1;
+    display: inline-block;
     width: 256.5px;
     height: 51px;
     border: 1px solid #fff;
-    margin: 56px 0 0 94px;
+    margin: 6px 0 0 94px;
 }
 
 .button_text {
@@ -216,13 +199,12 @@
     text-align: center;
     text-transform: uppercase;
     color: #fff;
-    margin: 13.5px 0 0 -1px;
+    margin: 13.5px 0 0 0px;
 }
 /*----------------------------------------- Конец Cover -----------------------------------------*/
 /*----------------------------------------- Начало Cards -----------------------------------------*/
 .cards {
     width: 1052px;
-    min-height: 723px;
     margin: 180px 24px 120px;
 }
 
@@ -245,30 +227,17 @@
 }
 
 .cards_list {
-    position: relative;
-    height: 596px;
+    min-height: 596px;
     width: 334px;
-}
-
-.overlay_dark {
-    position: absolute;
-    z-index: 1;
-    width: 100%;
-    height: 100%;
-    background-color: #000;
-    opacity: 0.6;
+    background-repeat: no-repeat;
 }
 
 .cards_content {
     width: 100%;
     height: 100%;
-    display: grid;
-    grid-template-rows: min-content 1fr;
 }
 
 .card_title {
-    position: absolute;
-    z-index: 2;
     padding: 48px 40px 0;
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
@@ -285,8 +254,6 @@
 }
 
 .card_main {
-    position: absolute;
-    z-index: 2;
     padding: 0 40px 48px ;
     font-family: Raleway;
     font-weight: 400;
@@ -294,40 +261,38 @@
     line-height: 120%;
     letter-spacing: 0%;
     color: #fff;
-    align-self: end;
+    margin-top: auto;
 }
 
 .left_card {
     background-image: url(../images/card-lot-01.jpg);
     background-repeat: no-repeat;
-    background-size: 550px 600px;
-    background-position: -109px -2px;
+    background-size: cover;
+    background-position: center;
 }
 
 .center_card {
     background-image: url(../images/card-lot-02.jpg);
     background-repeat: no-repeat;
-    background-size: 550px 600px;
-    background-position: -109px -2px;
+    background-size: cover;
+    background-position: center;
 }
 
 .right_card {
 
     background-image: url(../images/card-lot-03.jpg);
     background-repeat: no-repeat;
-    background-size: 550px 600px;
-    background-position: -113px -2px;
+    background-size: cover;
+    background-position: center;
 }
 
 .cards_footer {
     width: 1052px;
-    height: 53px;
     font-family: 'Raleway', sans-serif;
     font-weight: 400;
     font-style: Regular;
     font-size: 20px;
     line-height: 100%;
-    letter-spacing: 0%;
 }
 
 .cards_footer_text {
@@ -340,7 +305,6 @@
 /*----------------------------------------- Начало About -----------------------------------------*/
 .about {
     width: 1052px;
-    height: 595px;
     margin: 0 24px;
 }
 
@@ -348,7 +312,6 @@
     display: grid;
     grid-template-columns: min-content 1fr;
     width: 1052px;
-    height: 595px;
 }
 
 .about_logo {
@@ -362,14 +325,13 @@
 .about_logo_image {
     width: 190px;
     height: 114px;
-    margin: 64px 0 0 25.5px;
+    margin: 66px 0 0 25.5px;
 }
 
 .about_main {
     display: grid;
-    grid-template-rows: 150px 299px;
+    grid-template-rows: min-content 1fr;
     width: 693px;
-    height: 449px;
     margin: 133px 0 13px 70px;
 }
 
@@ -379,9 +341,8 @@
     font-style: Bold;
     font-size: 40px;
     line-height: 100%;
-    letter-spacing: 0%;
     text-transform: uppercase;
-    padding: 7px 0 0 2px;
+    padding: 8px 0 0 2px;
 }
 
 .about_main_content {
@@ -396,25 +357,19 @@
     line-height: 24px;
     letter-spacing: 0%;
     margin-left: 2px;
+    margin-top: 104px;
 }
-/*----------------------------------------- Конец About -----------------------------------------*/
 /*----------------------------------------- Начало Footer -----------------------------------------*/
 footer {
     width: 1100px;
-    margin-top: 180px;
+    margin-top: 166px;
     display: grid;
     grid-template-columns: 350px 350px 400px;
     grid-auto-flow: column;
 }
 
-.address {
-    font-family: 'Raleway', sans-serif;
-    font-weight: 400;
-    font-style: Regular;
-    font-size: 18px;
-    line-height: 24.3px;
-    letter-spacing: 0%;
-
+.address_menu.footer_contacts {
+    padding-left: 50px;
 }
 
 .footer_links_list {
